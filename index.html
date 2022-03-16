@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aharon Gonzalez">
+         <!--user scalable by default is yes-->
+        <title>My Resume</title>
+        <link rel="stylesheet " type="text/css" href="css/estilo.css" >   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/code.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="title">
+                    <h1><a href="index.html"><img src="css/logo.png" alt="logo"></a></h1>
+                    <!--Image created with https://logomakr.com -->
+                </div>
+                <div id="searchBox">
+                    <form method="GET" id="searching"><!--non-secure data and it doesn't work :'( -->
+                        <input type="text" class="search" placeholder="Search..." size="20">
+                        <input type="submit" class="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="bio">
+               <div id="example"><img src="css/yo.jpg" alt="Me" id="bioImage"></div><p class="text">¡Hello! Welcome, my full name is Aharon Gonzalez Anaure, born the May 11th
+                    of 1996 so currently I have 25 years. As of right now (5/21/2021) I'm in my 5th semester of Informatics Engineering
+                    at the <a href="https://www.ucab.edu.ve" target="_blank" style="color: white;">UCAB</a> and I want to start
+                    looking for oportunities. That's why I made this website so you my, maybe, future employer can see some of my skills
+                    in the practice.<br><br>
+                    I was born in Caracas, Venezuela and have live there all my life. I have visited the USA in several oportunities
+                    but didn't stayed for long. As you can read I can write and speak english with no problems, I also speak a little of french and of course my mother
+                    lenguage wich is spanish.<br><br>
+                    This website is by no means a pretty one but it has skills for everything I know except Ajax, also, it was created from scratch, no templates, no YouTube videos, 
+                    just VisualCode and my knowledge. In case you want to download my C.V in PDF format you can do it 
+                    <a href="https://drive.google.com/file/d/1P1IpnaKhRaU9cnNktj-4yx4mdGG1cjbb/view?usp=sharing" style="color: white;" target="_blank">here</a>.
+               </p> 
+            </div>
+            <div class="clear"></div>
+            <div class="options"><a href="Lenguajes.html" target="opt1" style="color: white; text-decoration: none;" >Languages</a></div>
+            <div class="options"><a href="Experience.html" target="opt2" style="color: white; text-decoration: none;">Experience</a></div>
+            <div class="options"><a href="PersonalData.html" target="opt3" style="color: white; text-decoration: none;">Personal data</a></div>
+            <div class="options"><a href="Education.html" target="opt4" style="color: white; text-decoration: none;">Education</a></div>
+            <div id="hideOpts">
+                <iframe name="opt1" width="997px" height="250px" onload="this.style.visibility = 'visible';" style="display: none;" scrolling="no"></iframe>
+                <iframe name="opt2" width="997px" height="250px" onload="this.style.visibility = 'visible';" style="display: none;" scrolling="no"></iframe>
+                <iframe name="opt3" width="997px" height="250px" onload="this.style.visibility = 'visible';" style="display: none;" scrolling="no"></iframe>
+                <iframe name="opt4" width="997px" height="250px" onload="this.style.visibility = 'visible';" style="display: none;" scrolling="no"></iframe> 
+            </div>         
+    </body>
+</html>
